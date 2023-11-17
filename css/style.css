@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: azure;
+  text-align: center;
+}
+.container {
+    width: 300px;
+  padding: 10px;
+  margin: 100px auto;
+  background-color: rgb(32, 198, 143);
+  border-radius: 5px;
+}
+.la{
+    text-transform: uppercase;
+    display: inline-block;
+    
+    width: 90px;
+}
+.header h2{
+text-transform: uppercase;
+font-weight: 700;
+color: blue;
+}
+.fom input{
+    width: 150px;
+    height: 20px;
+    margin-bottom: 3px;
+    border-radius: 3px;
+}.fom button{
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.fom button:hover{
+    color: white;
+    background-color: black;
+    width:80px;
+    height:32px;
+    cursor: pointer;
+}
